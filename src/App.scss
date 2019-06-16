@@ -1,0 +1,30 @@
+.app-header{
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: dimgray;
+
+  .menubar{
+    list-style: none;
+
+    li{
+      float: left;
+      a{
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+
+        &:hover{
+          color: yellow;
+          border-bottom: 3px solid yellow;
+        }
+      }
+    }
+  }
+
+
+}  .app-body{
+     position: absolute;
+     top: 60px;
+   }
