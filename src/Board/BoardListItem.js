@@ -22,5 +22,5 @@ const BoardListItem = (props) => {
         </div>
     );
 };
-
+//
 export default BoardListItem;
